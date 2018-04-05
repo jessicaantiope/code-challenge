@@ -7,7 +7,8 @@ test('test set up working', () => {
 })
 
 test('decipher', () => {
-  let actual = solution.decipher('dzs')
+  let cipher = 'zodvqukgwefbyitmrsplhacxnj'
+  let actual = solution.decipher('dzs', cipher)
   let expected = 'car'
   expect(actual).toBe(expected)
 })
