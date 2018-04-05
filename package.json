@@ -1,0 +1,15 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Atbash code challenge",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest --watch --noStackTrace"
+  },
+  "repository": "https://github.com/jessicaantiope/code-challenge.git",
+  "author": "jessica draper <j.b.draper@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.4.3"
+  }
+}
